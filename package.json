@@ -1,12 +1,26 @@
 {
   "name": "@thaunknown/web-irc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript port of irc-framework's WebIRC client, without the bloat of unnceessary packages.",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["webirc", "irc", "typescript", "irc-framework"],
+  "keywords": [
+    "webirc",
+    "irc",
+    "typescript",
+    "irc-framework"
+  ],
   "author": "ThaUnknown",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "grapheme-splitter": "^1.0.4",
+    "streamx": "^2.20.1",
+    "uint8-util": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "@types/streamx": "^2.9.5"
+  }
 }
