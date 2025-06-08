@@ -1,6 +1,6 @@
 {
   "name": "@thaunknown/web-irc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A TypeScript port of irc-framework's WebIRC client, without the bloat of unnceessary packages.",
   "main": "index.js",
   "scripts": {
