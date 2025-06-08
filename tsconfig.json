@@ -1,5 +1,12 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "allowJs": true,
     "checkJs": true,
     "esModuleInterop": true,
@@ -7,17 +14,29 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "sourceMap": true,
-    "strict": true,
     "moduleResolution": "bundler",
-    "target": "ESNext",
-    "verbatimModuleSyntax": true,
-    "module": "ESNext",
-    "allowSyntheticDefaultImports": true,
-    "noEmit": true,
     "allowImportingTsExtensions": true,
-    "baseUrl": "types",
+    "rewriteRelativeImportExtensions": true,
+    "emitDeclarationOnly": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "noUncheckedIndexedAccess": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "maxNodeModuleJsDepth": 3,
+    "allowSyntheticDefaultImports": true,
     "typeRoots": [
       "types"
     ]
-  }
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": [
+    "./*.ts"
+  ]
 }
