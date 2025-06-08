@@ -2,7 +2,7 @@
   "name": "@thaunknown/web-irc",
   "version": "1.0.2",
   "description": "A TypeScript port of irc-framework's WebIRC client, without the bloat of unnceessary packages.",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc --noCheck"
   },
